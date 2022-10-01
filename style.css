@@ -1,0 +1,281 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+  }
+
+/*-------------------------For Setting Background-Image perfectly-------------------------*/
+  header::before {
+    background: url("https://images.unsplash.com/photo-1528109901743-12b16e05eedf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")
+      no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+  }
+  .navigation {
+    font-family: "Bree Serif", serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  li {
+    color: yellow;
+    list-style: none;
+    padding: 20px 30px;
+  }
+  li:hover {
+    color: rgb(55, 88, 88);
+    text-decoration: underline;
+  }
+  .section {
+    text-align: center;
+    height: 380px;
+    margin: 28px 115px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .section::before {
+    font-size: 25px;
+    font-family: "Give You Glory", cursive;
+    font-weight: bold;
+    content: "Let's Code.";
+  }
+  .section::after {
+    font-size: 25px;
+    font-family: "Give You Glory", cursive;
+    font-weight: bold;
+    content: "Coding is just another word for 'Technology' !";
+  }
+  .h2head {
+    color: crimson;
+    font-size: 3rem;
+    font-family: "Vollkorn SC", serif;
+  }
+  .head {
+    font-size: 25px;
+    color: rgb(164, 174, 255);
+    font-family: "My Soul", cursive;
+  }
+  .container {
+    margin: 120px 40px;
+    box-sizing: border-box;
+  }
+  .layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    line-height: 1.6;
+    flex: 1 1 100%;
+    text-align: left;
+    margin: 20px 26px;
+  }
+  /* .layout::before {
+    background: url("https://source.unsplash.com/collection/190727/1600x900")
+      no-repeat center center/cover;
+  } */
+  .layout1 {
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+    width: 30%;
+    margin: 10px 20px;
+    height: 620px;
+    background-color: white;
+    opacity: 0.8;
+  }
+  .layout2 {
+    color: rgb(255, 255, 255);
+    width: 30%;
+    margin: 10px 20px;
+    border: 2px solid white;
+    height: 620px;
+    background-color: black;
+    opacity: 0.8;
+  }
+  .layout3 {
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    width: 30%;
+    margin: 10px 20px;
+    height: 620px;
+    background-color: #fe7606;
+    opacity: 1;
+  }
+  .layout1-in {
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 1;
+    width: 100%;
+  }
+  .layout2-in {
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 1;
+    width: 100%;
+  }
+  .layout3-in {
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 1;
+    width: 100%;
+  }
+  .layout3-para{
+    color:rgb(8, 43, 66);
+    text-decoration: underline;
+    font-family: "Source Sans 3", sans-serif;
+  }
+  .layout3-para:hover{
+    color: skyblue;
+  }
+  h1 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 7rem;
+    position: relative;
+    font-family: "Shrikhand", cursive;
+  }
+  .h12 {
+    color: orangered;
+  }
+  a {
+    font-size: 21px;
+    margin: 2px;
+    padding: 6px 8px;
+    cursor: pointer;
+    color: orangered;
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: "Source Sans 3", sans-serif;
+  }
+  a:hover {
+    color: darkred;
+    text-decoration: underline;
+  }
+  .a3 {
+    color: white;
+  }
+  .h2cont {
+    font-size: 33px;
+    font-family: "Nosifer", cursive;
+  }
+  p {
+    font-family: "Cormorant Upright", serif;
+    font-size: 21px;
+  }
+  .heading{
+    text-align: center;
+    font-size: 45px;
+    margin: 40px auto;
+    font-family: 'Fredericka the Great', cursive;
+  }
+  .line-1{
+    border: 2px solid white;
+    width: 200px;
+    margin: auto;
+  }
+  .h-about{
+      font-size: 20px;
+      margin: 10px 260px;
+  }
+  .footer{
+    position: relative;
+    background-color: rgb(28, 29, 29);
+    height: 690px;
+    width: 1516px;
+    margin: -100px 2px;
+    justify-content: center;
+  }
+  .footlayout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    margin: 160px 0px;
+    padding: 60px 0px;
+    text-align: justify;
+    justify-content: center;
+  }
+  .footlayout1{
+    color: white;
+    width: 15%;
+    margin: 10px 10px;
+    height: 200px;
+  }
+  .footlayout2{
+    color: white;
+    width: 15%;
+    margin: 10px 10px;
+    height: 200px;
+  }
+  .footlayout3{
+    color: white;
+    width: 15%;
+    margin: 10px 10px;
+    height: 200px;
+  }
+  .footlayout4{
+    color: white;
+    width: 15%;
+    margin: 10px 10px;
+    height: 200px;
+  }
+  .footul{
+    text-align: left;
+    font-size: 16px;
+    margin: auto;
+  }
+  .footli{
+    color: rgb(200, 200, 200);
+  }
+  .h4foot{
+    text-align: center;
+    font-size: 20px;
+    margin: -2px -10px;
+    margin: auto;
+  }
+  .line-2{
+    border: 1px solid white;
+    width: 1000px;
+       margin: 35px 260px;
+  }
+  .endfoot{
+    text-align: center;
+  }
+  span{
+    text-decoration: underline;
+  }
+  span:hover{
+    color: rgb(161, 161, 161);
+  }
+  .credit{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    background-color: grey;
+    margin: 55px auto;
+    height: 65px;
+  }
+  .creditpara{
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Shalimar', cursive;
+  }
